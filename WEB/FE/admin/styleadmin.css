@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    height: 100px;
+    width: 100vw;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.admin-category{
+    display: flex;
+    padding-top: 20px;
+}
+.admin-category-left{
+    width: 25%;
+    height: 100vh;
+    padding: 30px 0 0 20px;
+    background-color: #ADD8E6;
+}
+.admin-category-left ul li a:first-child{
+    font-weight: bold;
+    color: blue;
+    
+}
+.admin-category-left ul li{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.admin-category-left ul ul{
+    margin-left: 15px;
+}
+.admin-category-right{
+    width: 75%;
+    padding: 30px 0 0  20px;
+    height: 100vh;
+    background-color: #F5F5DC;
+}
+.admin-category-right-dm__add input{
+    height: 30px;
+    width: 200px;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #000;
+    border: 2px solid ;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to bottom right, #6495ED, #4682B4); 
+}
+.admin-category-right-dm__add button{
+    margin-top: 20px;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: #fff;
+    border:none;
+    background-color: #4682B4;
+    border-radius: 2px;
+}
+.admin-category-right-dm__add button:hover{
+   
+    background-color: #000;
+}
+/* -------------------List category-----------danh mục show */
+.admin-category-right-dm__list table{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.admin-category-right-dm__list table tr th,td{
+    border: 1px solid #999;
+}
+table{
+    border-collapse: collapse; /* dduongfw vieenf k trungf nhau */
+}
+/* -----------------------------------------Quản lý products----------------------------------------- */
+.admin-product-right-dm__add input, select{
+    height: 30px;
+    width: 300px;
+    display: block;
+    margin: 20px 0;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.admin-product-right-dm__add label{
+    margin-left: 100px;
+}
+.admin-product-right-dm__add h1{
+    margin-bottom: 50px;
+    color: #000080;
+
+}
+.left-add-product input{
+    padding: 12px;
+}
+.left-add-product input,select{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.left-add-product input:hover,select:hover{
+    border:1px solid #000;
+    border-radius: 5px;
+}
+.product-add{
+    display: flex;
+}
+.right-add-product{
+    display: block;
+}
+.right-add-product-content {
+    margin-top: 28px;
+    margin-left: 40px;
+}
+.right-add-product-content textarea{
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 12px;
+}
+.right-add-product-content textarea:hover{
+    border:1px solid #000;
+}
+.right-add-product-content input{
+    margin-left: 15px;    
+}
+.right-add-product-content{
+   margin-top: 0;
+}
+.right-add-product-content p{
+    margin-bottom: 10px;
+}
+.btn-add-product{
+    align-items: center;
+    margin-top: 35px;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: #000;
+    background-color: #6495ED;
+    border: none;
+}
+.btn-add-product:hover{
+    background-color: #FF8C00;
+    font-weight: bold;
+}
+
+

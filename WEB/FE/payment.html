@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./js/index.js">
+
+
+</head>
+
+<body>
+    <!-- Header -->
+   <header></header>
+    <!-- --------------------Payment------------------------- -->
+  <section class="payment">
+    <div class="payment-top-wrap">
+        <div class="payment-top-line">
+            <div class="payment-top-payment item-payment">
+                <i class="fa-solid fa-cart-shopping "></i>
+            </div>
+            <div class="payment-top-address item-payment">
+                <i class="fa-solid fa-location-dot "></i>
+            </div>
+            <div class="payment-top-cart item-payment">
+                <i class="fa-solid fa-credit-card " ></i>
+            </div>
+        </div>
+    </div>
+    <div class="ctnpayment">
+        <div class="payment-content row">
+            <div class="payment-content-left">
+                <div class="payment-content-left-delivery">
+                    <p style="font-weight:bold;" >Phương thức giao hàng</p>
+                    <div style="margin-top: 7px;" class="payment-content-left-delivery-item">
+                        <input checked  type="radio">
+                        <label for="">Giao hàng chuyển phát nhanh</label>
+                    </div>
+                </div>
+                <div class="payment-content-left-payment">
+                    <p style="font-weight:bold">Phương thức thanh toán</p>
+                    <p>Để đảm bảo về tính bảo mật và riêng tư. Tất cả thông tin thẻ không bao giờ được lưu lại.</p>
+                    <div class="payment-content-left-payment-item">
+                        <input name="payment" type="radio">
+                        <label for="">Thanh toán bằng thẻ tín dụng</label>
+                    </div>
+                    <div class="payment-content-left-payment-item-img">
+                        <img src="./img/visa.jpg" alt="">
+                    </div>
+                    <div class="payment-content-left-payment-item">
+                        <input checked  name="payment" type="radio">
+                        <label for="">Thanh toán bằng thẻ ATM</label>
+                    </div>
+                    <div class="payment-content-left-payment-item-img">
+                        <img src="./img/nganhang.png" alt="">
+                    </div>
+                    <div class="payment-content-left-payment-item">
+                        <input name="payment"type="radio">
+                        <label for="">Thanh toán bằng MOMO</label>
+                    </div>
+                    <div class="payment-content-left-payment-item-img">
+                        <img src="./img/momo.png" alt="">
+                    </div>
+                    <div class="payment-content-left-payment-item">
+                        <input name="payment" type="radio">
+                        <label for="">Thu tiền tận nơi</label>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-content-right">
+                <div class="payment-content-right-button">
+                    <input type="text" placeholder="Mã giảm giá">
+                    <button>Áp dụng <i class="fa-solid fa-check"> </i></button>
+                </div>
+                <div class="payment-content-right-button">
+                    <input type="text" placeholder="Mã nhân viên">
+                    <button>Áp dụng<i class="fa-solid fa-check"> </i></button>
+                </div>
+                <div class="payment-content-right-button-staff">
+                    <select name="" id="">
+                        <option value="">Chọn mã nhân viên áp dụng</option>
+                        <option value="">VIP</option>
+                        <option value="">CT</option>
+                        <option value="">MKT</option>
+                        <option value="">MNG</option>
+                        <option value="">NSL</option>
+                        
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="payment-content-right-continue">
+            <button>TIẾP TỤC THANH TOÁN</button>
+        </div>
+    </div>
+  </section>
+    <!-- ----------------------End Payment------------------------ -->
+    <!------------------- FOOTER START ------------------>
+<footer></footer>
+<script src="./jquery/jquery.min.js"></script>
+<script src="./js/index.js "></script>
+</body>
+
+</html>
+
+</html>

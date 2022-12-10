@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN CATEGORY</title>
+    <link rel="stylesheet" href="./styleadmin.css">
+</head>
+<body>
+    <header>
+        <h1> QUẢN LÝ SẢN PHẨM</h1>
+    </header>
+    <section class="admin-category">
+        <div class="admin-category-left">
+            <ul>
+                <li><a href="#">DANH MỤC</a>
+                <ul>
+                    <li><a href=""></a>Thêm danh mục</li>
+                    <li><a href=""></a>Xem danh sách danh mục</li>
+                </ul>
+            </li>
+                <li><a href="#">LOẠI SẢN PHẨM</a>
+                    <ul>
+                        <li><a href=""></a>Thêm loại sản phẩm</li>
+                        <li><a href=""></a>Xem danh sách loại sản phẩm</li>
+                    </ul>
+                </li>
+                <li><a href="#">SẢN PHẨM</a>
+                    <ul>
+                        <li><a href=""></a>Thêm sản phẩm</li>
+                        <li><a href=""></a>Xem danh sách sản phẩm</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <div class="admin-category-right">
+            <div class="admin-product-right-dm__add">
+                <h1>THÊM SẢN PHẨM</h1>
+           <div class="product-add">
+            <div class="left-add-product">
+                <form action="" method="POST" enctype="multipart/form-data"> <!-- phải có  enctype="multipart/form-data để up file lên csdl-->
+                    <label for="" > Nhập tên sản phẩm <span style="color: red;">*</span></label>
+                    <input type="text" > 
+                     <label for="">Chọn danh mục <span style="color: red;">*</span></label>
+                    <select name="" id="">
+                        <option value="#">Chọn</option>
+                    </select>
+                    <label for="">Chọn loại sản phẩm <span style="color: red;">*</span></label>
+                    <select name="" id="">
+                       
+                        <option value="#">Chọn</option>
+                    </select>
+                    <label for="">Nhập giá sản phẩm <span style="color: red;">*</span></label>
+                    <input type="text" >
+                    <label for="">Nhập giá khuyến mãi <span style="color: red;">*</span></label>
+                    <input type="text" >
+               </div>
+                   <div class="right-add-product"> 
+                    <div class="right-add-product-content">
+                    <p>Nhập mô tả</p>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <p>Ảnh sản phẩm <span style="color: red;">*</span></p>
+                    <input type="file">
+                    <p>Ảnh mô tả <span style="color: red;">*</span></p>
+                    <input multiple type="file">
+                    </div>
+                    <button class="btn-add-product" type="submit">THÊM SẢN PHẨM</button>
+                   </div>
+                </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
